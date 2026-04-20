@@ -1,0 +1,20 @@
+@relation Employee
+
+@attribute Name string
+
+@attribute ID numeric
+
+@attribute Salary {Low,Medium,High}
+
+@attribute Exp numeric
+
+@attribute Gender {Male,Female}
+
+@attribute Phone string
+@data
+
+x,101,Low,2,Male,9566076561
+y,102,High,3,Female,8687876756
+z,103,Medium,1,Male,8765432198
+a,104,Low,5,Female,7856432112
+b,105,High,2,Male,9807645632
